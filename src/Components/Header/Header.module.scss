@@ -1,12 +1,13 @@
 @import "../../styles/contants.scss";
+
 .wrapper {
   position: relative;
   z-index: 99;
   opacity: 1;
   transform: none;
   position: sticky;
-  top: 0;
-  transition: all300ms ease;
+  top: 0px;
+  transition: all 300ms ease;
 
   .container {
     position: relative;
