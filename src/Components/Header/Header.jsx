@@ -11,14 +11,13 @@ const Header = () => {
 
   return (
     <motion.div
+      variants={headerVariants}
       initial="hidden"
       whileInView="show"
-      variants={headerVariants}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      className={`bg-primary paddings ${css.wrapper}`}
       style={{ boxShadow: headerShadow }}
       >
-
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>MD SAIF</div>
 
