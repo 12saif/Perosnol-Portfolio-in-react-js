@@ -12,6 +12,8 @@ const Works = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}>
+
+        <a href="" className="anchor" id="work"></a>
       <div className={`flexCenter innerWidth ${css.container}`}>
         <span className="primaryText yPaddings">My Work Experience</span>
 
@@ -50,6 +52,11 @@ const Works = () => {
               <div
                 className={css.circle}
                 style={{ background: "#EEC048" }}></div>
+            </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ background: "#000" }}></div>
             </div>
           </motion.div>
         </div>

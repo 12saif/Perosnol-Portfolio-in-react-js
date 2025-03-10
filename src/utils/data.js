@@ -4,19 +4,19 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Develop",
-    projects: 24,
+    projects: 8,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 1,
+    name: "Mobile App Devwlop",
+    projects: 4,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "Brand Identity",
-    projects: 47,
+    projects: 10,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -36,18 +36,24 @@ export const workExp = [
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
   {
-    place: "New Man Services",
-    tenure: "Dec 2020 - Sep 2022",
-    role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
     place: "Sonicapex Pvt Ltd.",
-    tenure: "Oct 2022 - Mar 2023",
-    role: "Front-End Developer",
+    tenure: "Jan 2023 - Apr 2023",
+    role: "Front-End Developer  (Internship)",
     detail:
       "Gitlab | react-remix | React.js | JavaScript | Git | HTML | Cascading Style Sheets (CSS)",
+  },
+  {
+    place: "Cohesive Health Pvt Ltd.",
+    tenure: "Aug 2023 - Nov 2023",
+    role: "Front-End Developer (React & ReactNative)",
+    detail: "Developed and maintained responsive and user-friendly web and mobile applications using React and React Native. Collaborated with back-end developers to integrate APIs for seamless functionality, particularly in managing clinic details and doctor data. Implemented reusable components and optimized the performance of applications to enhance user experience. Worked closely with UI/UX designers to translate designs into functional interfaces while adhering to industry standards and best practices. Conducted rigorous testing to ensure cross-platform compatibility and resolved bugs efficiently."
+  },
+  {
+    place: "Cohesive Health Pvt Ltd.",
+    tenure: "Nov 2023 - Present",
+    role: "Lead Front-End Developer (React & ReactNative)",
+    detail:
+      "Leading the front-end development team in building scalable and dynamic web and mobile applications using React and React Native. Overseeing the implementation of complex features, including API integrations for real-time data management in healthcare applications. Mentoring junior developers and fostering best practices in coding, testing, and deployment. Collaborating with cross-functional teams, including product managers and designers, to deliver user-centric solutions. Driving improvements in code quality, performance optimization, and development workflows to ensure project timelines are met. Staying updated with emerging technologies to integrate innovative solutions into existing projects."
   },
 ];
 
