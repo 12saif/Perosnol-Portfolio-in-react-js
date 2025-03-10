@@ -53,6 +53,11 @@ const Works = () => {
                 className={css.circle}
                 style={{ background: "#EEC048" }}></div>
             </div>
+            <div>
+              <div
+                className={css.circle}
+                style={{ background: "#000" }}></div>
+            </div>
           </motion.div>
         </div>
       </div>

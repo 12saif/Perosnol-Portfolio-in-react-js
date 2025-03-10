@@ -2,6 +2,7 @@ import React from "react";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, slideIn, staggerContainer } from "./../../utils/motion";
+import person from "../images/SAIF_IMAGE-NEW-EDIT-removebg.png";
 
 const Hero = () => {
   return (
@@ -31,7 +32,7 @@ const Hero = () => {
           className={css.person}>
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="../../../public/person.png"
+            src={person}
           />
         </motion.div>
         {/* Email */}
@@ -44,7 +45,7 @@ const Hero = () => {
           <motion.div
             variants={fadeIn("right", "tween", 0.3, 1)}
             className={css.experience}>
-            <div className="primaryText">01</div>
+            <div className="primaryText">1.9</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
